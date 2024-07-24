@@ -264,6 +264,13 @@ class raspai2shougaibutsu
 
 
  private:
+     int sensor_data[4];
+     int m_stop_d = 30;
+    int time = 0;
+    int jidou = 0;
+    int senkai = 0;
+    int chokushin = 1;
+    int end = 0;
   // <rtc-template block="private_attribute">
   
   // </rtc-template>
